@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.API.UI", "SelfieAWookie.API.UI\SelfieAWookie.API.UI.csproj", "{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
