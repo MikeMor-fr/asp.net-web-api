@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.API.UI", "SelfieAWookie.API.UI\SelfieAWookie.API.UI.csproj", "{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74221371-B22B-48AF-8DC0-7501BD27433D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC4B22C6-0605-4BBD-B9A0-17227A3FFFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1} = {74221371-B22B-48AF-8DC0-7501BD27433D}
 	EndGlobalSection
 EndGlobal
