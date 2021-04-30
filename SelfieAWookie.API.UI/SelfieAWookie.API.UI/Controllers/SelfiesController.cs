@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SelfieAWookies.Core.Selfies.Domain;
 
 namespace SelfieAWookie.API.UI.Controllers
 {
@@ -12,9 +13,10 @@ namespace SelfieAWookie.API.UI.Controllers
     public class SelfiesController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Selfie> Get()
+        public IActionResult Get()
         {
-            return Enumerable.Range(1, 10).Select((item) => new Selfie() {Id = item});
+            var model = Enumerable.Range(1, 10).Select((item) => new Selfie() {Id = item});
+            return Ok(model);
         }
     }
 }
