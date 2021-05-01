@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{C80A01BC-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookies.Core.Selfies.Domain", "SelfieAWookies.Core.Selfies.Domain\SelfieAWookies.Core.Selfies.Domain.csproj", "{C904D96F-5E56-486E-ACA9-50234518826B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookies.Core.Selfies.Infrastructure", "SelfieAWookies.Core.Selfies.Infrastructure\SelfieAWookies.Core.Selfies.Infrastructure.csproj", "{F78082A2-9250-47CE-A8AB-42712AA3E06E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{C904D96F-5E56-486E-ACA9-50234518826B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C904D96F-5E56-486E-ACA9-50234518826B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C904D96F-5E56-486E-ACA9-50234518826B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78082A2-9250-47CE-A8AB-42712AA3E06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78082A2-9250-47CE-A8AB-42712AA3E06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78082A2-9250-47CE-A8AB-42712AA3E06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78082A2-9250-47CE-A8AB-42712AA3E06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1} = {74221371-B22B-48AF-8DC0-7501BD27433D}
 		{C904D96F-5E56-486E-ACA9-50234518826B} = {C80A01BC-F888-4F7A-A28B-2D8E31EC757B}
+		{F78082A2-9250-47CE-A8AB-42712AA3E06E} = {C80A01BC-F888-4F7A-A28B-2D8E31EC757B}
 	EndGlobalSection
 EndGlobal
