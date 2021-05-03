@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2227b105_002D0abe_002D48c4_002Da5b7_002D8d50eb1decb0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldReturnListOfSelfies" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1::net5.0::TestWebApi.SelfieControllerUnitTest.ShouldReturnListOfSelfies&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::7C13B407-DCB7-49E4-BB21-2B8A10F1ADF1::net5.0::TestWebApi.SelfieControllerUnitTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
