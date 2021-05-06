@@ -2,10 +2,11 @@ using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using SelfieAWookies.Core.Selfies.Domain;
 using SelfieAWookies.Core.Selfies.Infrastructure.Data.TypeConfigurations;
+using SelfiesAWookies.Core.Framework;
 
 namespace SelfieAWookies.Core.Selfies.Infrastructure.Data
 {
-    public class SelfiesContext : DbContext
+    public class SelfiesContext : DbContext, IUnitOfWork
     {
         public SelfiesContext([NotNull] DbContextOptions options) : base(options) { }
 

@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SelfieAWookies.Core.Selfies.Domain\SelfieAWookies.Core.Selfies.Domain.csproj" />
+      <ProjectReference Include="..\SelfiesAWookies.Core.Framework\SelfiesAWookies.Core.Framework.csproj" />
     </ItemGroup>
 
 </Project>

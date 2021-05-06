@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SelfieAWookie.API.UI.ExtensionMethods;
 using SelfieAWookies.Core.Selfies.Domain;
 using SelfieAWookies.Core.Selfies.Infrastructure.Data;
 using SelfieAWookies.Core.Selfies.Infrastructure.Data.Repositories;
@@ -34,8 +35,8 @@ namespace SelfieAWookie.API.UI
             {
                 options.UseSqlServer(Configuration.GetConnectionString("SelfiesDatabase"));
             });
-
-            services.AddTransient<ISelfieRepository, DefaultSelfieRepository>();
+            
+            services.AddInjections();
             
             services.AddControllers();
             services.AddSwaggerGen(c =>

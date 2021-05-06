@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using Microsoft.EntityFrameworkCore;
 using SelfieAWookies.Core.Selfies.Domain;
+using SelfiesAWookies.Core.Framework;
 
 namespace SelfieAWookies.Core.Selfies.Infrastructure.Data.Repositories
 {
@@ -18,5 +20,7 @@ namespace SelfieAWookies.Core.Selfies.Infrastructure.Data.Repositories
         {
             return _context.Selfies.Include(item => item.Wookie).ToList();
         }
+
+        public IUnitOfWork UnitOfWork => _context;
     }
 }
